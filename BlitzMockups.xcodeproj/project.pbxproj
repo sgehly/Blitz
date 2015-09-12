@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B67166C35B6DAE0EFA24DCE /* Pods_BlitzMockups.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9500A24FE71088D9022BC4A2 /* Pods_BlitzMockups.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C1587B141B9CAF6D00A1134E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1587B131B9CAF6D00A1134E /* SnapKit.framework */; };
+		C1587B171B9CB19D00A1134E /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1587B161B9CB19D00A1134E /* TimelineViewController.swift */; };
+		C1ADCC101B9E052B00A69CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ADCC0F1B9E052B00A69CEC /* Assets.xcassets */; };
 		C1EB39201B9CA87400C40B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */; };
-		C1EB39221B9CA87400C40B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB39211B9CA87400C40B80 /* ViewController.swift */; };
+		C1EB39221B9CA87400C40B80 /* MasterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */; };
 		C1EB39251B9CA87400C40B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39231B9CA87400C40B80 /* Main.storyboard */; };
 		C1EB39271B9CA87400C40B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39261B9CA87400C40B80 /* Assets.xcassets */; };
 		C1EB392A1B9CA87400C40B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39281B9CA87400C40B80 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlitzMockups.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups.debug.xcconfig"; sourceTree = "<group>"; };
+		88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlitzMockups.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups.release.xcconfig"; sourceTree = "<group>"; };
+		9500A24FE71088D9022BC4A2 /* Pods_BlitzMockups.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlitzMockups.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1587B131B9CAF6D00A1134E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Pods/../build/Debug-iphoneos/SnapKit.framework"; sourceTree = "<group>"; };
+		C1587B161B9CB19D00A1134E /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		C1ADCC0F1B9E052B00A69CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1EB391C1B9CA87400C40B80 /* BlitzMockups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlitzMockups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1EB39211B9CA87400C40B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterNavigationController.swift; sourceTree = "<group>"; };
 		C1EB39241B9CA87400C40B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1EB39261B9CA87400C40B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1EB39291B9CA87400C40B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +39,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1587B141B9CAF6D00A1134E /* SnapKit.framework in Frameworks */,
+				1B67166C35B6DAE0EFA24DCE /* Pods_BlitzMockups.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB94CA4D8E4903EC9FA7293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1587B131B9CAF6D00A1134E /* SnapKit.framework */,
+				9500A24FE71088D9022BC4A2 /* Pods_BlitzMockups.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C595ECAEA159D42E35B24DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */,
+				88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1587B151B9CB16D00A1134E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1587B161B9CB19D00A1134E /* TimelineViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		C1EB39131B9CA87400C40B80 = {
 			isa = PBXGroup;
 			children = (
+				C1ADCC0F1B9E052B00A69CEC /* Assets.xcassets */,
 				C1EB391E1B9CA87400C40B80 /* BlitzMockups */,
 				C1EB391D1B9CA87400C40B80 /* Products */,
+				8C595ECAEA159D42E35B24DC /* Pods */,
+				0AB94CA4D8E4903EC9FA7293 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */,
-				C1EB39211B9CA87400C40B80 /* ViewController.swift */,
+				C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */,
+				C1587B151B9CB16D00A1134E /* Home */,
 				C1EB39231B9CA87400C40B80 /* Main.storyboard */,
 				C1EB39261B9CA87400C40B80 /* Assets.xcassets */,
 				C1EB39281B9CA87400C40B80 /* LaunchScreen.storyboard */,
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EB392E1B9CA87400C40B80 /* Build configuration list for PBXNativeTarget "BlitzMockups" */;
 			buildPhases = (
+				F6589E798AECE27CA1C6C522 /* Check Pods Manifest.lock */,
 				C1EB39181B9CA87400C40B80 /* Sources */,
 				C1EB39191B9CA87400C40B80 /* Frameworks */,
 				C1EB391A1B9CA87400C40B80 /* Resources */,
+				31DBBC47B2EF2A2A43287B6E /* Embed Pods Frameworks */,
+				C0838E6CE7D0876CD9AA306D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,19 +168,69 @@
 			files = (
 				C1EB392A1B9CA87400C40B80 /* LaunchScreen.storyboard in Resources */,
 				C1EB39271B9CA87400C40B80 /* Assets.xcassets in Resources */,
+				C1ADCC101B9E052B00A69CEC /* Assets.xcassets in Resources */,
 				C1EB39251B9CA87400C40B80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31DBBC47B2EF2A2A43287B6E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0838E6CE7D0876CD9AA306D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6589E798AECE27CA1C6C522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1EB39181B9CA87400C40B80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EB39221B9CA87400C40B80 /* ViewController.swift in Sources */,
+				C1EB39221B9CA87400C40B80 /* MasterNavigationController.swift in Sources */,
 				C1EB39201B9CA87400C40B80 /* AppDelegate.swift in Sources */,
+				C1587B171B9CB19D00A1134E /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +341,13 @@
 		};
 		C1EB392F1B9CA87400C40B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BlitzMockups/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gehly.BlitzMockups;
@@ -257,8 +357,13 @@
 		};
 		C1EB39301B9CA87400C40B80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BlitzMockups/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gehly.BlitzMockups;
@@ -285,6 +390,7 @@
 				C1EB39301B9CA87400C40B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
