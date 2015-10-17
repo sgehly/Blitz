@@ -8,9 +8,6 @@
 
 import UIKit
 
-let darkColor = UIColor(red: 21/255, green: 21/255, blue: 21/255, alpha: 1.0)
-let lightColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1.0)
-
 extension UIImage {
     class func imageWithColor(color: UIColor, size: CGRect) -> UIImage {
         UIGraphicsBeginImageContext(size.size)
@@ -33,8 +30,8 @@ class ViewController: UINavigationController {
         let image = UIImage.imageWithColor(darkColor, size: self.navigationBar.frame)
         self.view.backgroundColor = UIColor.whiteColor()
         self.navigationBar.setBackgroundImage(image, forBarMetrics: .Default)
-        let timeline = TimelineViewController()
-        self.setViewControllers([timeline], animated: false)
+        let igniter = BattleJoinController()
+        self.setViewControllers([igniter], animated: false)
         
         
         let bar = UITabBar()
@@ -47,11 +44,11 @@ class ViewController: UINavigationController {
         bar.tintColor = UIColor.whiteColor()
         
         let items = [
-            generateBarItem("Timeline", image: "timeline"),
-            generateBarItem("Explore", image: "map"),
-            generateBarItem("Top Users", image: "leaderboard"),
+            generateBarItem("Battle", image: "battle"),
+            generateBarItem("Explore", image: "explore"),
+            generateBarItem("Leaderboard", image: "top"),
             generateBarItem("Notifications", image: "notifications"),
-            generateBarItem("Profile", image: "viking")
+            generateBarItem("Profile", image: "profile")
         ]
         bar.setItems(items, animated: false)
         bar.backgroundImage = image

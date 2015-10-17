@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1B67166C35B6DAE0EFA24DCE /* Pods_BlitzMockups.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9500A24FE71088D9022BC4A2 /* Pods_BlitzMockups.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C1010BB91BD1D7DE004CF833 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1010BB81BD1D7DE004CF833 /* Colors.swift */; };
 		C1587B141B9CAF6D00A1134E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1587B131B9CAF6D00A1134E /* SnapKit.framework */; };
-		C1587B171B9CB19D00A1134E /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1587B161B9CB19D00A1134E /* TimelineViewController.swift */; };
+		C1587B171B9CB19D00A1134E /* BattleJoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1587B161B9CB19D00A1134E /* BattleJoinController.swift */; };
 		C1ADCC101B9E052B00A69CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ADCC0F1B9E052B00A69CEC /* Assets.xcassets */; };
 		C1EB39201B9CA87400C40B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */; };
 		C1EB39221B9CA87400C40B80 /* MasterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */; };
 		C1EB39251B9CA87400C40B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39231B9CA87400C40B80 /* Main.storyboard */; };
-		C1EB39271B9CA87400C40B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39261B9CA87400C40B80 /* Assets.xcassets */; };
 		C1EB392A1B9CA87400C40B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EB39281B9CA87400C40B80 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,14 +22,14 @@
 		0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlitzMockups.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups.debug.xcconfig"; sourceTree = "<group>"; };
 		88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlitzMockups.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlitzMockups/Pods-BlitzMockups.release.xcconfig"; sourceTree = "<group>"; };
 		9500A24FE71088D9022BC4A2 /* Pods_BlitzMockups.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlitzMockups.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1010BB81BD1D7DE004CF833 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C1587B131B9CAF6D00A1134E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Pods/../build/Debug-iphoneos/SnapKit.framework"; sourceTree = "<group>"; };
-		C1587B161B9CB19D00A1134E /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		C1587B161B9CB19D00A1134E /* BattleJoinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleJoinController.swift; sourceTree = "<group>"; };
 		C1ADCC0F1B9E052B00A69CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1EB391C1B9CA87400C40B80 /* BlitzMockups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlitzMockups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterNavigationController.swift; sourceTree = "<group>"; };
 		C1EB39241B9CA87400C40B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1EB39261B9CA87400C40B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1EB39291B9CA87400C40B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1EB392B1B9CA87400C40B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,12 +65,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C1587B151B9CB16D00A1134E /* Home */ = {
+		C1587B151B9CB16D00A1134E /* Battle */ = {
 			isa = PBXGroup;
 			children = (
-				C1587B161B9CB19D00A1134E /* TimelineViewController.swift */,
+				C1587B161B9CB19D00A1134E /* BattleJoinController.swift */,
 			);
-			name = Home;
+			name = Battle;
 			sourceTree = "<group>";
 		};
 		C1EB39131B9CA87400C40B80 = {
@@ -97,9 +97,9 @@
 			children = (
 				C1EB391F1B9CA87400C40B80 /* AppDelegate.swift */,
 				C1EB39211B9CA87400C40B80 /* MasterNavigationController.swift */,
-				C1587B151B9CB16D00A1134E /* Home */,
+				C1010BB81BD1D7DE004CF833 /* Colors.swift */,
+				C1587B151B9CB16D00A1134E /* Battle */,
 				C1EB39231B9CA87400C40B80 /* Main.storyboard */,
-				C1EB39261B9CA87400C40B80 /* Assets.xcassets */,
 				C1EB39281B9CA87400C40B80 /* LaunchScreen.storyboard */,
 				C1EB392B1B9CA87400C40B80 /* Info.plist */,
 			);
@@ -167,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EB392A1B9CA87400C40B80 /* LaunchScreen.storyboard in Resources */,
-				C1EB39271B9CA87400C40B80 /* Assets.xcassets in Resources */,
 				C1ADCC101B9E052B00A69CEC /* Assets.xcassets in Resources */,
 				C1EB39251B9CA87400C40B80 /* Main.storyboard in Resources */,
 			);
@@ -229,8 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EB39221B9CA87400C40B80 /* MasterNavigationController.swift in Sources */,
+				C1010BB91BD1D7DE004CF833 /* Colors.swift in Sources */,
 				C1EB39201B9CA87400C40B80 /* AppDelegate.swift in Sources */,
-				C1587B171B9CB19D00A1134E /* TimelineViewController.swift in Sources */,
+				C1587B171B9CB19D00A1134E /* BattleJoinController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +343,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -359,7 +358,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
