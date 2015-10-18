@@ -13,11 +13,14 @@ import UIKit
 
 class BattleJoinController: UIViewController{
     
-    let width = 300
-    let offset = 30
+    let width = 50
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nil, bundle: nil)
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -37,7 +40,7 @@ class BattleJoinController: UIViewController{
         logo.snp_makeConstraints{ make in
             make.height.equalTo(125)
             make.width.equalTo(70)
-            make.centerX.equalTo(self.view).offset(5)
+            make.centerX.equalTo(self.view).offset(2)
             make.top.equalTo(self.view).offset(50)
         }
         
@@ -62,6 +65,8 @@ class BattleJoinController: UIViewController{
             make.height.equalTo(logo)
         }
         
+        let offset = Int(self.view.frame.height/4-130)
+
         //Random Button
         let randomButton = generateButton("Tournament", subtitle: "Play for points!", color: blueButtonColor, reference: logo, offset: offset)
         
@@ -107,17 +112,10 @@ class BattleJoinController: UIViewController{
 
         self.view.addSubview(button)
         button.snp_makeConstraints{ make in
-            if offset == nil{
-                make.left.equalTo(reference.snp_right)
-                make.height.equalTo(reference)
-                make.width.equalTo(100)
-                make.top.equalTo(reference)
-            }else{
-                make.centerX.equalTo(self.view)
-                make.top.equalTo(reference.snp_bottom).offset(offset!)
-                make.width.equalTo(width)
-                make.bottom.equalTo(buttonSublabel).offset(10)
-            }
+            make.centerX.equalTo(self.view)
+            make.top.equalTo(reference.snp_bottom).offset(offset!)
+            make.width.equalTo(self.view).offset(-width)
+            make.bottom.equalTo(buttonSublabel).offset(10)
         }
         return button
     }

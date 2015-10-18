@@ -140,6 +140,7 @@
 				TargetAttributes = {
 					C1EB391B1B9CA87400C40B80 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 92ASZT77BN;
 					};
 				};
 			};
@@ -343,6 +344,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FA49565101B1BBC319C4969 /* Pods-BlitzMockups.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -351,6 +354,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gehly.BlitzMockups;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -358,6 +362,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88FDD6B0C041A358BF1D6DE3 /* Pods-BlitzMockups.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -366,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gehly.BlitzMockups;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
